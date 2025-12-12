@@ -1,0 +1,13 @@
+services:
+  switchbot-proxy:
+    build: .
+    container_name: ai2mqtt
+    restart: always
+    env_file:
+      - .env
+    network_mode: host
+    volumes:
+      - ai2mqtt_log:/logs
+        
+volumes:
+  ai2mqtt_log: null

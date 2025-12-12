@@ -1,5 +1,5 @@
 services:
-  switchbot-proxy:
+  ai2mqtt:
     build: .
     container_name: ai2mqtt
     restart: always

@@ -33,7 +33,7 @@ Send the following payload to *MQTT_2AI_TOPIC* topic
 {
   "track": "weatherforecast",
   "prompt": "I need the weather forecast for New York at Christmas",
-  "scheme": "{\"title\": \"WeatherforecastResponse\", \"type\": \"object\", \"description\": \"scheme for obtaining weather forecasts\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"the location used for forecasts\"}, \"condition\": {\"type\": \"string\", \"description\": \"the textual description of the weather forecast\"}}, \"required\": [\"location\", \"condition\"]}"
+  "scheme": "{\\"title\\": \\"WeatherforecastResponse\\", \\"type\\": \\"object\\", \\"description\\": \\"scheme for obtaining weather forecasts\\", \\"properties\\": {\\"location\\": {\\"type\\": \\"string\\", \\"description\\": \\"the location used for forecasts\\"}, \\"condition\\": {\\"type\\": \\"string\\", \\"description\\": \\"the textual description of the weather forecast\\"}}, \\"required\\": [\\"location\\", \\"condition\\"]}"
 }
 
 Response will be trasmitted to *MQTT_FROMAI_TOPIC*/weatherforecast topic using the provided schema

@@ -64,6 +64,12 @@ Response will be sent using the following json template
 - *MQTT_2AI_TOPIC*=**to send prompt to AI**
 - *MQTT_FROMAI_TOPIC/[track]*=**to receive prompt response from AI**
 
+## Resources
+ - Youtube videos: https://youtube.com/playlist?list=PLvTDReD06z45jwp9Kakuw0TTBLnL_DkVK&si=TCcI4w81hZxVe9CK
+
+## *Version 1.0 beta*
+ - Final version
+
 ## *Version 0.1*
  - Initial version
 

@@ -8,7 +8,7 @@ import logging.config
 from google import genai
 from google.genai import types
 
-_VERSION = "0.1"
+_VERSION = "1.0 beta"
 
 load_dotenv()
 with open('logging.json', 'r') as f:
